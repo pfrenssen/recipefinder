@@ -1,0 +1,20 @@
+uuid: d3302fdc-560f-43b8-832c-e56f0050ea0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - ingredient
+    - recipe
+id: recipe.field_ingredients
+field_name: field_ingredients
+entity_type: recipe
+type: entity_reference
+settings:
+  target_type: ingredient
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

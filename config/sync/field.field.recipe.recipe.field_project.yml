@@ -1,0 +1,20 @@
+uuid: 28465830-102c-43b8-a8fb-f4f1e5be7857
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.recipe.field_project
+  module:
+    - recipe
+id: recipe.recipe.field_project
+field_name: field_project
+entity_type: recipe
+bundle: recipe
+label: Project
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

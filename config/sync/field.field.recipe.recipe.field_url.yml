@@ -1,0 +1,23 @@
+uuid: f35ac96a-9116-48b4-922e-501d5568a9f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.recipe.field_url
+  module:
+    - link
+    - recipe
+id: recipe.recipe.field_url
+field_name: field_url
+entity_type: recipe
+bundle: recipe
+label: URL
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

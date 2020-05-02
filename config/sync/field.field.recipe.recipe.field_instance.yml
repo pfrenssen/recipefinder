@@ -1,0 +1,20 @@
+uuid: 455138fd-e44e-42ab-a243-b48acf5f401f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.recipe.field_instance
+  module:
+    - recipe
+id: recipe.recipe.field_instance
+field_name: field_instance
+entity_type: recipe
+bundle: recipe
+label: Instance
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

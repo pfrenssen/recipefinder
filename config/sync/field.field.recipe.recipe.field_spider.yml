@@ -1,0 +1,20 @@
+uuid: 88519d02-0dfe-47a5-8878-4d470e3b2b01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.recipe.field_spider
+  module:
+    - recipe
+id: recipe.recipe.field_spider
+field_name: field_spider
+entity_type: recipe
+bundle: recipe
+label: Spider
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

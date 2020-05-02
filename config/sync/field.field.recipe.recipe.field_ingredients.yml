@@ -1,0 +1,26 @@
+uuid: 0c8de723-2dda-4092-b153-da5341e04238
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.recipe.field_ingredients
+  module:
+    - recipe
+id: recipe.recipe.field_ingredients
+field_name: field_ingredients
+entity_type: recipe
+bundle: recipe
+label: Ingredients
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:ingredient'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: true
+field_type: entity_reference
