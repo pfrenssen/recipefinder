@@ -1,0 +1,6 @@
+name: Recipe
+type: module
+description: Provides recipes.
+package: recipefinder
+core: 8.x
+core_version_requirement: ^8 || ^9

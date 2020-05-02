@@ -1,0 +1,5 @@
+administer ingredient:
+  title: 'Administer ingredient settings'
+  restrict access: true
+access ingredient overview:
+  title: 'Access ingredient overview page'

@@ -1,0 +1,7 @@
+entity.recipe.settings:
+  path: 'admin/structure/recipe'
+  defaults:
+    _form: '\Drupal\recipe\Form\RecipeSettingsForm'
+    _title: 'Recipe'
+  requirements:
+    _permission: 'administer recipe'

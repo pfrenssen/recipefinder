@@ -1,0 +1,22 @@
+entity.recipe.settings:
+  title: Settings
+  route_name: entity.recipe.settings
+  base_route: entity.recipe.settings
+entity.recipe.view:
+  title: View
+  route_name: entity.recipe.canonical
+  base_route: entity.recipe.canonical
+entity.recipe.edit_form:
+  title: Edit
+  route_name: entity.recipe.edit_form
+  base_route: entity.recipe.canonical
+entity.recipe.delete_form:
+  title: Delete
+  route_name: entity.recipe.delete_form
+  base_route: entity.recipe.canonical
+  weight: 10
+entity.recipe.collection:
+  title: Recipe
+  route_name: entity.recipe.collection
+  base_route: system.admin_content
+  weight: 10

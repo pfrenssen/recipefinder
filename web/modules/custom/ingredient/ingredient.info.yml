@@ -1,0 +1,7 @@
+name: Ingredient
+type: module
+description: 'Provides an ingredient entity.'
+package: recipefinder
+core: 8.x
+core_version_requirement: ^8 || ^9
+configure: entity.ingredient.settings

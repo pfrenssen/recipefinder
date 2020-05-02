@@ -1,0 +1,5 @@
+recipe.add_form:
+  route_name: entity.recipe.add_form
+  title: 'Add recipe'
+  appears_on:
+    - entity.recipe.collection

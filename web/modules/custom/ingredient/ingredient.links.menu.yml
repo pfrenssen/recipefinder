@@ -1,0 +1,10 @@
+entity.ingredient.settings:
+  title: Ingredient
+  description: Configure an Ingredient entity type
+  route_name:  entity.ingredient.settings
+  parent: system.admin_structure
+entity.ingredient.collection:
+  title: Ingredients
+  description: List of ingredients
+  route_name: entity.ingredient.collection
+  parent: system.admin_content

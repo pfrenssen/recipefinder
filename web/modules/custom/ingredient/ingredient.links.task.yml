@@ -1,0 +1,22 @@
+entity.ingredient.settings:
+  title: Settings
+  route_name: entity.ingredient.settings
+  base_route: entity.ingredient.settings
+entity.ingredient.view:
+  title: View
+  route_name: entity.ingredient.canonical
+  base_route: entity.ingredient.canonical
+entity.ingredient.edit_form:
+  title: Edit
+  route_name: entity.ingredient.edit_form
+  base_route: entity.ingredient.canonical
+entity.ingredient.delete_form:
+  title: Delete
+  route_name: entity.ingredient.delete_form
+  base_route: entity.ingredient.canonical
+  weight: 10
+entity.ingredient.collection:
+  title: Ingredient
+  route_name: entity.ingredient.collection
+  base_route: system.admin_content
+  weight: 10

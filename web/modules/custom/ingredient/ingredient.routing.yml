@@ -1,0 +1,7 @@
+entity.ingredient.settings:
+  path: 'admin/structure/ingredient'
+  defaults:
+    _form: '\Drupal\ingredient\Form\IngredientSettingsForm'
+    _title: 'Ingredient'
+  requirements:
+    _permission: 'administer ingredient'
