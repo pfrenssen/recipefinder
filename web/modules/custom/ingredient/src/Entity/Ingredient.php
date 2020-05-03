@@ -73,6 +73,7 @@ class Ingredient extends ContentEntityBase implements IngredientInterface {
       ->setDescription(t('The title of the ingredient entity.'))
       ->setRequired(TRUE)
       ->setSetting('max_length', 255)
+      ->addConstraint('UniqueField')
       ->setDisplayOptions('form', [
         'type' => 'string_textfield',
         'weight' => -5,
